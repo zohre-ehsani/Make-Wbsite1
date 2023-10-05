@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(239, 225, 225);
+}
+header{
+    position: sticky;
+}
+nav{
+height: 50px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(236, 219, 191);
+border: solid 2px rgb(128, 79, 0);
+}
+
+.box1{
+    min-height:200px ;
+    max-width:1500px ;
+    border: solid 2px rgb(128, 79, 0);
+    border-radius: 10px;
+    margin: 30px 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.img{
+width: 120px;
+height: 100px;
+border-radius: 3px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1{
+    width: 200px;
+    height: 250px;
+   
+    border: 3px solid rgb(128, 79, 0);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   align-items: center;
+   padding: 20px;
+   margin: 20px;
+
+}
+section a{
+    background-color: rgb(239, 148, 82);
+    text-decoration: none;
+    color:rgb(108, 39, 2) ;
+   border-radius: 3px;
+}
+.tb{
+    
+    display: flex ;
+    justify-content: center;
+
+}
+
+table{
+    width: 1000px;
+    height: 200px;
+    margin: 30px;
+    background-color: #c48f7c;
+}
+
+td{
+    text-align: center;
+    background-color: rgb(254, 235, 214);
+}
+
+th{
+    background-color: #f8dccc;
+    word-spacing: 180px;
+}
+.box-goal{
+    border-radius: 10px;
+    border: #c48f7c solid 3px;
+    padding: 30px;
+    margin: 30px;
+    min-height: 400px;
+    max-width: 90vw;
+}
+
+
+p~h4{
+    
+    display: inline-block;
+}
+.box-rule{
+    max-width: 800px;
+    min-height: 430px;
+    border: #70412f solid 5px;
+border-radius: 10px;
+max-width: 50%;
+min-height: 450px;
+margin: 25px auto;
+
+display: flex;
+
+}
+
+.rules{
+    
+    
+    border-radius: 5px;
+    margin: 25px 10px;
+    display: flex;
+}
+
+.prules{
+    display: flex;
+    padding: 8px;
+    margin: 15px;
+    
+    border-left: black solid 2px;
+    display: flex;
+    flex-direction:column;
+}
+.prules p{
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(216, 160, 127);
+}
+h3 {
+    margin: 80px 20px 80px 80px;
+    
+    display: flex;
+    
+}
